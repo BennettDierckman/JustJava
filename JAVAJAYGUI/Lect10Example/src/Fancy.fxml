@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label text="INFORMATICS IS COOl" textFill="#d30707" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Label>
+   </top>
+   <left>
+      <VBox prefHeight="271.0" prefWidth="138.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="141.0" text="INFORMATICS" />
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="141.0" text="COMPSCI" />
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="141.0" text="LIB SCI" />
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="141.0" text="SYSTEMS" />
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="359.0" prefWidth="147.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="What Year are you?" />
+            <CheckBox mnemonicParsing="false" text="Freshman" />
+            <CheckBox mnemonicParsing="false" text="Sophmore" />
+            <CheckBox mnemonicParsing="false" text="Junior" />
+            <CheckBox mnemonicParsing="false" text="Senior" />
+            <CheckBox mnemonicParsing="false" text="Super Senior" />
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <Label text="www.soic.indiana.edu" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Italic" size="40.0" />
+         </font>
+      </Label>
+   </bottom>
+   <center>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../BennettDierckman/img/header.jpg" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

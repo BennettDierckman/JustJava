@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="launchPagePane" onKeyTyped="#launchPagePaneKeyTyped" prefHeight="347.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.4" fx:controller="application.LaunchPageController">
+   <children>
+      <CheckBox fx:id="cbSushi" layoutX="37.0" layoutY="22.0" mnemonicParsing="false" onAction="#cbSushiChecked" text="Sushi" />
+      <CheckBox fx:id="cbPizza" layoutX="171.0" layoutY="22.0" mnemonicParsing="false" onAction="#cbPizzaChecked" text="Pizza" />
+      <Button fx:id="bOK" layoutX="36.0" layoutY="67.0" mnemonicParsing="false" onAction="#bOkClicked" prefHeight="27.0" prefWidth="108.0" text="Ok" />
+      <Button fx:id="bCancel" layoutX="150.0" layoutY="67.0" mnemonicParsing="false" onAction="#bCancelClicked" prefHeight="27.0" prefWidth="108.0" text="Cancel" />
+      <Label fx:id="lblMoveMe" layoutX="88.0" layoutY="200.0" onMouseDragged="#lblMoveMeMouseDragged" text="Move Me!!">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
